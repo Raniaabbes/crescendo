@@ -1,0 +1,100 @@
+body {
+    min-height: 100vh;
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+    
+    }
+
+
+
+*{ 
+ 
+    margin: 0; 
+    box-sizing: border-box; 
+    padding: 0; 
+    scroll-behavior: smooth; 
+     
+    } 
+    header { 
+    width: 100%; 
+    position: fixed; 
+    z-index: 999; 
+    display: flex; 
+    justify-content:space-between ; 
+    align-items: center; 
+    padding: 5px 150px; 
+    } 
+ 
+    .gel a{ 
+ 
+        text-decoration: none; 
+        color: white; 
+       text-transform: uppercase; 
+       font-size: 18px; 
+       font-weight: 500; 
+       padding-left: 16px; 
+    } 
+     
+        section { 
+     
+            padding: 50px 150px; 
+        } 
+        .gela { 
+         
+        min-height: 80vh; 
+        display: flex; 
+        align-items: center; 
+        justify-content: center; 
+        background-color:  #310c0c; 
+       background-attachment: fixed; 
+        background-size: cover; 
+        image-rendering: optimizeQuality; 
+        image-rendering: crisp-edges; 
+        padding-top: 40px; 
+        flex-direction: column; 
+        } 
+ 
+ 
+        .gela h1{ 
+            color: white; 
+            font-size: 160px; 
+            text-transform: uppercase; 
+            margin-top: -20px; 
+        } 
+       .gela p{ 
+ 
+       color: white; 
+margin-top: 40px; 
+       text-align: center; 
+       } 
+ 
+        .bogo { 
+ 
+         background-color: #310c0c ; 
+ 
+        } 
+ 
+.allo { 
+ 
+display: flex; 
+    justify-self: center; 
+    flex-direction: row; 
+    flex-wrap: wrap; 
+  margin-left: 60px; 
+  margin-top: -50px; 
+} 
+ 
+.allo img{ 
+ 
+    width: 300px; 
+    align-items: center; 
+    padding: 10px; 
+    transition: 0.7s ease; 
+    border-radius: 15px; 
+} 
+ 
+.allo img:hover{ 
+transform: scale(1.1); 
+ 
+}

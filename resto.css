@@ -1,0 +1,403 @@
+body {
+min-height: 100vh;
+overflow: auto;
+margin: 0;
+padding: 0;
+
+}
+
+
+
+
+
+*{ 
+ 
+margin: 0; 
+box-sizing: border-box; 
+padding: 0; 
+scroll-behavior: smooth; 
+ 
+} 
+header { 
+width: 100%; 
+position: fixed; 
+z-index: 999; 
+display: flex; 
+justify-content:space-between ; 
+align-items: center; 
+padding: 5px 150px; 
+ 
+} 
+ 
+.logo { 
+ 
+display: flex; 
+justify-content: center; 
+align-items: center; 
+    width: 250px; 
+} 
+ 
+.had a{ 
+ 
+ text-decoration: none; 
+ color: white; 
+text-transform: uppercase; 
+font-size: 18px; 
+font-weight: 500; 
+padding-left: 16px; 
+ 
+} 
+ 
+.had a:hover{ 
+ 
+letter-spacing: 2px; 
+color: black; 
+} 
+ 
+section { 
+ 
+    padding: 50px 150px; 
+} 
+.main { 
+ 
+min-height: 100vh; 
+display: flex; 
+align-items: center; 
+justify-content: center; 
+ 
+     
+background-image: url(téléchargement\ \(2\).gif); 
+background-size: cover; 
+background-attachment: fixed; 
+image-rendering: optimizeQuality; 
+image-rendering: crisp-edges; 
+} 
+ 
+.info { 
+border: 0px solid black; 
+backdrop-filter: blur(10px); 
+width: 350px; 
+text-align: center; 
+padding: 60px 0; 
+ 
+} 
+ 
+.info img{ 
+ 
+width: 150px; 
+padding: 6px; 
+ 
+} 
+ 
+.info p{ 
+ 
+    color: white; 
+    font-size: 15px; 
+} 
+ 
+.info h4{ 
+    color: white; 
+    padding-bottom: 20px; 
+} 
+ 
+.info p:hover{ 
+letter-spacing: 0px; 
+color: #461111; 
+ 
+} 
+ 
+.info img:hover{ 
+ 
+    transform: scale(1.1); 
+} 
+ 
+ 
+.awarde { 
+background-color: #461111; 
+text-align: center; 
+color: black; 
+display: flex; 
+justify-content: space-around; 
+} 
+ 
+.awarde img{ 
+ margin: 13px; 
+width: 30px; 
+right: 20px; 
+} 
+ 
+.awarde i{ 
+ 
+    font-size: 30px; 
+    margin: 16px; 
+ 
+} 
+.places { 
+ 
+background-color: #141313  ; 
+padding-bottom: 20px; 
+ 
+} 
+.room { 
+color: white; 
+   display: flex;  
+   justify-content: space-evenly; 
+} 
+ 
+.room img{ 
+ 
+    width: 600px; 
+    margin-top: -50px; 
+    margin-left: -150px; 
+ 
+border-radius: 15px; 
+} 
+ 
+.room h1{ 
+ 
+    text-align: center; 
+    text-transform: uppercase; 
+    font-size: 45px; 
+    margin-top: 80px; 
+    margin-bottom: 80px; 
+    margin-left: 80px; 
+    color: white; 
+} 
+ 
+.room p{ 
+ 
+text-align: center; 
+font-size: 20px; 
+margin-left: 80px; 
+ 
+} 
+ 
+.room a{ 
+ 
+display: flex; 
+justify-content: center; 
+margin-left: 80px; 
+margin-top: 40px; 
+padding: 15px 5px; 
+text-decoration: none; 
+color: white; 
+align-content: center; 
+border: 2px solid white; 
+backdrop-filter: blur(10px); 
+ 
+ 
+} 
+.room a:hover{ 
+ 
+transform: scale(1.1); 
+color: black; 
+background: white; 
+} 
+ 
+.norml { 
+ 
+    color: white; 
+    display: flex;  
+    justify-content: space-between;  
+} 
+.norml img{ 
+margin-top: -2px; 
+margin-right: -150px; 
+border-radius: 15px; 
+ 
+} 
+ 
+.content h1{ 
+ 
+text-align: center; 
+text-align: center; 
+text-transform: uppercase; 
+font-size: 45px; 
+margin-top: 130px; 
+margin-bottom: 110px; 
+margin-right: 155px; 
+color: white; 
+ 
+ 
+} 
+ 
+.content p{ 
+ 
+    text-align: center; 
+    font-size: 25px; 
+    margin-right: 155px; 
+ 
+} 
+ 
+.content a{ 
+ 
+ 
+    display: flex; 
+justify-content: center; 
+margin-right: 150px; 
+margin-top: 60px; 
+padding: 15px 5px; 
+text-decoration: none; 
+color: white; 
+align-content: center; 
+border: 2px solid white; 
+backdrop-filter: blur(10px); 
+ 
+} 
+ 
+.content a:hover { 
+ 
+    transform: scale(1.1); 
+color: black; 
+background: white; 
+} 
+ 
+ 
+ 
+.Join { 
+ 
+background-image: url(TIL\'\ FOREVER\ FALLS\ APART\ __\ AEMOND\ TARGARYEN\ -\ UNTIL\ FOREVER\ FALLS\ APART.gif); 
+min-height: 70vh; 
+display: flex; 
+align-items: center; 
+justify-content: center; 
+background-size: cover; 
+image-rendering: optimizeQuality; 
+image-rendering: crisp-edges; 
+margin: 40px; 
+ 
+ 
+} 
+ 
+.pic { 
+ 
+    border: 2px solid white; 
+    backdrop-filter: blur(10px); 
+    width: 350px; 
+    text-align: center; 
+    padding: 90px 0; 
+    height: 450px; 
+     
+} 
+ 
+.pic h1{ 
+ 
+color: white; 
+text-transform: uppercase; 
+font-size: 40px; 
+margin-bottom: 40px; 
+ 
+} 
+ 
+.pic p{ 
+ 
+color: white; 
+text-transform: uppercase; 
+font-size: 14px; 
+ 
+} 
+.pic a{ 
+ 
+    display: flex; 
+    justify-content: center; 
+    margin-right: 90px; 
+    margin-left: 90px; 
+    margin-top: 60px; 
+    padding: 15px 5px; 
+    text-decoration: none; 
+    color: white; 
+    align-content: center; 
+    border: 2px solid white; 
+    backdrop-filter: blur(10px); 
+
+    } 
+     
+    .pic a:hover{ 
+    transform: scale(1.1); 
+    color: black; 
+    background: white; 
+    } 
+     
+    .team { 
+     
+        display: flex; 
+        justify-content: space-evenly; 
+        background-color: #141313; 
+     
+    } 
+     
+    .team img{ 
+     
+    width: 500px; 
+     
+    } 
+     
+    .te h1{ 
+     
+        text-align: center; 
+        text-transform: uppercase; 
+        font-size: 70px; 
+        margin-bottom: 50px; 
+        margin-left: 90px; 
+        margin-top: 50px; 
+        color: white; 
+    } 
+     
+    .te h2{ 
+     text-align: center; 
+     font-size: 70px; 
+     color: white; 
+    margin-left: 80px; 
+     
+     
+    } 
+     
+    .te a{ 
+     
+     
+        display: flex; 
+        justify-content: center; 
+        margin-right: 150px; 
+        margin-left: 250px; 
+        margin-top: 60px; 
+        padding: 15px 5px; 
+        text-decoration: none; 
+        color: white; 
+        align-content: center; 
+        border: 2px solid white; 
+        backdrop-filter: blur(10px) 
+    } 
+     
+     
+    .te a:hover{ 
+     
+        transform: scale(1.1); 
+        color: black; 
+        background: white; 
+     
+    } 
+     
+     
+    .about { 
+       margin-top: 150px; 
+       background-color: #141313; 
+       display: flex; 
+       justify-content: space-between; 
+     
+    } 
+     
+    .about h3{ 
+     
+        color: #461111; 
+        margin: 30px; 
+        text-transform: uppercase; 
+        font-size: large; 
+    } 
+     
+    .about h4{ 
+     
+        color: rgba(255, 255, 255, 0.555); 
+        margin: 10px; 
+        font-size: 15px; 
+        padding: 30px; 
+    }

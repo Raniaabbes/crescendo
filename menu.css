@@ -1,0 +1,127 @@
+body {
+    min-height: 100vh;
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+    
+    }
+
+
+
+
+
+
+*{ 
+ 
+    margin: 0; 
+    box-sizing: border-box; 
+    padding: 0; 
+    scroll-behavior: smooth; 
+     
+    } 
+    header { 
+    width: 100%; 
+    position: fixed; 
+    z-index: 999; 
+    display: flex; 
+    justify-content:space-between ; 
+    align-items: center; 
+    padding: 5px 150px; 
+     
+     
+    } 
+ 
+ 
+.men a{ 
+ 
+    text-decoration: none; 
+    color: white; 
+   text-transform: uppercase; 
+   font-size: 18px; 
+   font-weight: 500; 
+   padding-left: 16px; 
+} 
+ 
+    section { 
+ 
+        padding: 50px 150px; 
+    } 
+    .menu { 
+     
+    min-height: 0vh; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+background-image:url( TIL\'\ FOREVER\ FALLS\ APART\ __\ AEMOND\ TARGARYEN\ -\ UNTIL\ FOREVER\ FALLS\ APART.gif) ;  
+   background-attachment: fixed; 
+    background-size: cover; 
+    image-rendering: optimizeQuality; 
+    image-rendering: crisp-edges; 
+    padding-top: 40px; 
+    } 
+ 
+    .menu h1{ 
+    color: white; 
+    font-size: 180px; 
+ 
+    } 
+ 
+
+  .menu h1:hover { 
+ 
+    color: #461111; 
+} 
+ 
+
+ .clases { 
+    width: 100%; 
+ 
+    display: flex; 
+    justify-content:space-between ; 
+    align-items: center; 
+    padding: 5px 150px; 
+ 
+} 
+ 
+.clases a{ 
+    text-decoration: none; 
+    color: white; 
+   text-transform: uppercase; 
+   font-size: 20px; 
+   font-weight: 500; 
+   padding-left: 10px; 
+   margin-top: -150px; 
+ 
+ 
+} 
+ 
+.clases a:hover{ 
+letter-spacing: 1px; 
+ 
+ 
+} 
+ 
+ 
+ 
+ 
+    .appetizers { 
+ 
+background-color: #141313  ; 
+ 
+} 
+ 
+    .app h1{ 
+color: white; 
+font-size: 50px; 
+text-align: center; 
+text-transform: uppercase; 
+ 
+    } 
+ 
+    .app h3{ 
+ 
+        text-align: center; 
+        color: white; 
+        font-size: 20px; 
+        margin: 50px; 
+    }
